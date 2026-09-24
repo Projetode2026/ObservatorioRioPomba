@@ -1,0 +1,6 @@
+{
+  "name": "Observatório Rio Pomba",
+  "description": "Plataforma de monitoramento ambiental da qualidade da água e biodiversidade aquática do Rio Pomba na Zona da Mata Mineira.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

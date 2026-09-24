@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Fraunces', serif;
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+:root {
+  --forest-950: #07170e;
+  --forest-900: #0e2b1c;
+  --forest-800: #123d26;
+  --forest-700: #164a2f;
+  --forest-600: #1f6b45;
+  --forest-500: #2c8a5b;
+  --leaf-400: #6fb989;
+  --leaf-200: #c7e3d1;
+  --leaf-100: #e5f2ea;
+  --river-950: #061f2d;
+  --river-900: #0a3348;
+  --river-700: #125575;
+  --river-600: #17698f;
+  --river-400: #3a91b6;
+  --river-300: #8fc7dd;
+  --river-100: #e2f0f5;
+  --mist-050: #f5f8f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f5f8f4;
+  color: #16241d;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Custom scrollbar for data tables and modals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f4ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3d6c8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9abfa2;
+}
